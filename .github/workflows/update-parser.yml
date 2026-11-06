@@ -1,0 +1,58 @@
+name: Weekly UAParser Update
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-parser:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check latest UAParser version
+        id: latest
+        run: |
+          VERSION=$(npm view ua-parser-js version)
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Update parser version in website
+        env:
+          PARSER_VERSION: ${{ steps.latest.outputs.version }}
+        run: |
+          node -e '
+          const fs = require("fs");
+          const file = "index.html";
+          let html = fs.readFileSync(file, "utf8");
+          html = html.replace(
+            /ua-parser-js@\d+\.\d+\.\d+/g,
+            "ua-parser-js@" + process.env.PARSER_VERSION
+          );
+          fs.writeFileSync(file, html);
+          '
+
+      - name: Commit update if changed
+        env:
+          PARSER_VERSION: ${{ steps.latest.outputs.version }}
+        run: |
+          if git diff --quiet; then
+            echo "Parser is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Update UAParser.js to $PARSER_VERSION"
+          git push
