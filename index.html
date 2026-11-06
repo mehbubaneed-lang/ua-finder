@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="UA Finder - Search and detect User-Agent strings for iPhone, Android, Windows and Mac.">
+<title>UA Finder - User-Agent Database</title>
+<script src="https://cdn.jsdelivr.net/npm/ua-parser-js@2.0.10/dist/ua-parser.min.js"></script>
+<style>
+:root{--blue:#123d70;--pink:#ed5b91;--green:#159b72;--bg:#f3f6fb}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);font-family:Arial,sans-serif;color:#17243a}
+header{background:linear-gradient(120deg,var(--blue),#2466a6);color:white;padding:30px 16px;text-align:center}
+header h1{margin:0 0 8px;font-size:30px}
+header p{margin:5px 0}
+.wrap{max-width:900px;margin:22px auto;padding:0 14px}
+.panel{background:white;padding:20px;border-radius:15px;margin-bottom:16px;box-shadow:0 4px 16px #152b4610}
+h2{font-size:20px;margin:0 0 14px;color:var(--blue)}
+input,select,button{font-size:16px;padding:13px;border-radius:9px;border:1px solid #ccd5e2}
+input{width:100%;margin:7px 0}
+button{background:var(--blue);color:white;border:0;cursor:pointer}
+button.green{background:var(--green)}
+button.pink{background:var(--pink)}
+.actions{display:flex;gap:9px;flex-wrap:wrap;margin:10px 0}
+.actions button{flex:1}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.tabs button{background:#e7edf6;color:#173b65}
+.tabs button.active{background:var(--pink);color:white}
+.item{border:1px solid #e1e7ef;padding:13px;border-radius:10px;margin:10px 0}
+.item strong{color:var(--blue)}
+.ua{font-size:12px;overflow-wrap:anywhere;color:#526174;margin-top:7px}
+.result{background:#eef8f4;padding:14px;border-radius:10px;margin-top:12px;overflow-wrap:anywhere}
+footer{text-align:center;padding:25px;color:#667}
+.small{font-size:13px;color:#65758a}
+</style>
+</head>
+<body>
+<header>
+<h1>UA Finder</h1>
+<p>User-Agent Database | ইউজার-এজেন্ট ডেটাবেস</p>
+<p>iPhone • Android • Windows • Mac</p>
+</header>
+
+<main class="wrap">
+<section class="panel">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:10px">
+<h2 id="welcome">Find User-Agent</h2>
+<button class="pink" onclick="toggleLanguage()" id="langBtn">বাংলা</button>
+</div>
+<p id="intro">Search User-Agent examples or detect your current browser.</p>
+<input id="search" placeholder="Search iPhone, Android, Chrome, Windows..." oninput="render()">
+<div class="tabs" id="tabs">
+<button class="active" onclick="setCategory('All',this)">All</button>
+<button onclick="setCategory('iPhone',this)">iPhone</button>
+<button onclick="setCategory('Android',this)">Android</button>
+<button onclick="setCategory('Windows',this)">Windows</button>
+<button onclick="setCategory('Mac',this)">Mac</button>
+</div>
+<div id="list"></div>
+</section>
+
+<section class="panel">
+<h2 id="detectTitle">Detect My Device</h2>
+<p id="detectInfo">Find the browser and operating system of this device.</p>
+<button class="green" onclick="detectCurrent()" id="detectBtn">Detect My User-Agent</button>
+<div id="currentResult"></div>
+</section>
+
+<section class="panel">
+<h2 id="customTitle">Analyze a User-Agent</h2>
+<p id="customInfo">Paste any User-Agent string below.</p>
+<input id="customUA" placeholder="Paste User-Agent string here">
+<button onclick="analyze()">Analyze User-Agent</button>
+<div id="customResult"></div>
+</section>
+</main>
+<footer>UA Finder © 2026 | User-Agent Search Database</footer>
+
+<script>
+const records=[
+{category:"iPhone",name:"iPhone Safari",ua:"Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"},
+{category:"iPhone",name:"iPhone Chrome",ua:"Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/120.0.6099.119 Mobile/15E148 Safari/604.1"},
+{category:"Android",name:"Android Chrome",ua:"Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"},
+{category:"Android",name:"Android Firefox",ua:"Mozilla/5.0 (Android 14; Mobile; rv:120.0) Gecko/120.0 Firefox/120.0"},
+{category:"Windows",name:"Windows Chrome",ua:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"},
+{category:"Windows",name:"Windows Firefox",ua:"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"},
+{category:"Mac",name:"Mac Safari",ua:"Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"},
+{category:"Mac",name:"Mac Chrome",ua:"Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+];
+let category="All",bangla=false;
+function setCategory(c,btn){
+ category=c;
+ document.querySelectorAll(".tabs button").forEach(b=>b.classList.remove("active"));
+ btn.classList.add("active");render();
+}
+function render(){
+ const q=document.getElementById("search").value.toLowerCase();
+ const filtered=records.filter(x=>(category==="All"||x.category===category)&&
+ (x.name.toLowerCase().includes(q)||x.ua.toLowerCase().includes(q)||x.category.toLowerCase().includes(q)));
+ document.getElementById("list").innerHTML=filtered.length?filtered.map(x=>`
+ <div class="item"><strong>${x.category} — ${x.name}</strong>
+ <div class="ua">${x.ua}</div>
+ <div class="actions"><button onclick="copyUA(${JSON.stringify(x.ua).replace(/</g,'\\u003c')})">Copy User-Agent</button></div></div>`).join(""):"<p>No results found. কোনো ফলাফল পাওয়া যায়নি।</p>";
+}
+function copyUA(value){
+ navigator.clipboard.writeText(value).then(()=>alert("User-Agent copied!")).catch(()=>alert("Copy not supported by this browser."));
+}
+function parseUA(ua){
+ if(typeof UAParser==="undefined"){return "<p>Parser library could not load. Check your internet connection.</p>";}
+ const p=new UAParser(ua).getResult();
+ return `<div class="result"><b>Browser:</b> ${p.browser.name||"Unknown"} ${p.browser.version||""}<br>
+ <b>Operating System:</b> ${p.os.name||"Unknown"} ${p.os.version||""}<br>
+ <b>Device:</b> ${p.device.vendor||""} ${p.device.model||p.device.type||"Unknown"}<br>
+ <b>CPU:</b> ${p.cpu.architecture||"Unknown"}<br>
+ <b>Engine:</b> ${p.engine.name||"Unknown"}<hr><b>User-Agent:</b><div class="ua">${ua}</div></div>`;
+}
+function detectCurrent(){
+ document.getElementById("currentResult").innerHTML=parseUA(navigator.userAgent);
+}
+function analyze(){
+ const ua=document.getElementById("customUA").value.trim();
+ document.getElementById("customResult").innerHTML=ua?parseUA(ua):"Please paste a User-Agent first.";
+}
+function toggleLanguage(){
+ bangla=!bangla;
+ document.getElementById("langBtn").textContent=bangla?"English":"বাংলা";
+ document.getElementById("welcome").textContent=bangla?"ইউজার-এজেন্ট খুঁজুন":"Find User-Agent";
+ document.getElementById("intro").textContent=bangla?"User-Agent উদাহরণ খুঁজুন অথবা আপনার বর্তমান ব্রাউজার শনাক্ত করুন।":"Search User-Agent examples or detect your current browser.";
+ document.getElementById("detectTitle").textContent=bangla?"আমার ডিভাইস শনাক্ত করুন":"Detect My Device";
+ document.getElementById("detectInfo").textContent=bangla?"আপনার ডিভাইসের ব্রাউজার ও অপারেটিং সিস্টেম জানুন।":"Find the browser and operating system of this device.";
+ document.getElementById("detectBtn").textContent=bangla?"আমার User-Agent শনাক্ত করুন":"Detect My User-Agent";
+ document.getElementById("customTitle").textContent=bangla?"User-Agent বিশ্লেষণ করুন":"Analyze a User-Agent";
+ document.getElementById("customInfo").textContent=bangla?"নিচে যেকোনো User-Agent পেস্ট করুন।":"Paste any User-Agent string below.";
+ document.getElementById("search").placeholder=bangla?"iPhone, Android, Chrome, Windows লিখে খুঁজুন":"Search iPhone, Android, Chrome, Windows...";
+}
+render();
+</script>
+</body>
+</html>
