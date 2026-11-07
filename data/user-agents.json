@@ -1,4 +1,965 @@
 {
-  "lastUpdated": "2026-11-07",
-  "records": []
+  "lastUpdated": "2026-11-07T07:03:30.891Z",
+  "records": [
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Safari/605.1.15"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.4237.1387 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 14; 23127PN0CC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/148.0.0.0 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 15; SM-S938B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.4567.1469 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.1706.1207 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/151.0.0.0 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_2_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/443.5.997327796 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2998.1174 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.0.0 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.5933.1128 Mobile Safari/537.36"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/147.0.0.0 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:159.0) Gecko/20100101 Firefox/159.0"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.3761.1287 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/445.5.1006576801 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/445.5.1006576801 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/31.0 Chrome/148.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.0.0 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/445.5.1006576801 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2619.1566 Mobile Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.4668.1189 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.5355.1311 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.4974.1505 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 15; CPH2653) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.9835.1648 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPad; CPU OS 16_7_16 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6.2 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.1897.1352 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2757.1988 Mobile Safari/537.36"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2378.1607 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.4993.1992 Mobile Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.3430.1051 Mobile Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6,2 Safari/605.1.15"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.6622.1590 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.9386.1009 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/445.5.1006576801 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/156.0.4314.56 Version/26.0 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.1158.1933 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.8308.1335 Mobile Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Safari/605.1.15"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.7151.1604 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.3801.1760 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/445.5.1006576801 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/157.0.8103.37 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.3528.1038 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.1403.1056 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.3041.1012 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.6817.1256 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.5700.1352 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/157.0.8103.37 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.7585.1214 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.8014.1576 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.8154.1375 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.8623.1930 Mobile Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/152.4 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.4073.1579 Mobile Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:159.0) Gecko/20100101 Firefox/159.0"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.3892.1361 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.9316.1331 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.6741.1268 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2777.1810 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.7.1 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/157.0.8103.37 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.7727.1028 Mobile Safari/537.36"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_7_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/445.5.1006576801 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2844.1155 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.7.931869700 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.3237.1091 Mobile Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.8972.1313 Mobile Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.1964.1783 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/154.0.8037.55 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1 OPX/3.3.3"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.3 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.8718.1387 Mobile Safari/537.36"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.6975.1743 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/155.0.8059.37 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 OPR/138.0.0.0"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.4551.1393 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Mobile/15E148 Safari/604.1 Ddg/27.0"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/155.0.8059.37 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.8963.1160 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.3803.1218 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.3035.1594 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.9902.1961 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.4692.1285 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.3233.1578 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.5590.1215 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.5122.1777 Mobile Safari/537.36"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.5828.1017 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.5262.1352 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.3681.1427 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.3747.1557 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.7224.1270 Mobile Safari/537.36"
+    },
+    {
+      "category": "Windows",
+      "name": "Windows Browser",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 OPR/139.0.0.0"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2305.1774 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/445.5.1006576801 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.3127.1124 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.1006.1388 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.6084.1470 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_2_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/445.5.1006576801 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.1638.1938 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.1058.1064 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) AvastSecureBrowser/1.7.0 Mobile/15E148 Version/27.0 Safari/605.1.15"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.1077.1217 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1 Brave"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2869.1689 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.113 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.5766.1622 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.3 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.7586.1884 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.6255.1463 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/157.0.8103.37 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.5882.1363 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Mac",
+      "name": "Mac Browser",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko)"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.8552.1167 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.5283.1709 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.1910.1660 Mobile Safari/537.36"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.1418.1629 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.7325.1684 Mobile Safari/537.36"
+    },
+    {
+      "category": "iPhone",
+      "name": "iPhone Browser",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/159.0 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "category": "Android",
+      "name": "Android Browser",
+      "ua": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.4057.1389 Mobile Safari/537.36"
+    }
+  ]
 }
