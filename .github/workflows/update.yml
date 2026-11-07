@@ -22,7 +22,7 @@ jobs:
           node-version: 20
 
       - name: Install User-Agent source
-        run: npm install user-agents@latest
+        run: npm install --no-save user-agents@latest
 
       - name: Update database
         run: |
@@ -32,7 +32,13 @@ jobs:
 
           const path = 'data/user-agents.json';
           const db = JSON.parse(fs.readFileSync(path, 'utf8'));
+
+          if (!Array.isArray(db.records)) {
+            throw new Error('Invalid database format');
+          }
+
           const seen = new Set(db.records.map(x => x.ua));
+          let added = 0;
 
           for (let i = 0; i < 1000; i++) {
             const ua = new UserAgent().toString();
@@ -45,16 +51,22 @@ jobs:
 
             if (category && !seen.has(ua)) {
               seen.add(ua);
+
               db.records.push({
                 category,
                 name: category + ' Browser',
                 ua
               });
+
+              added++;
             }
           }
 
           db.lastUpdated = new Date().toISOString();
           fs.writeFileSync(path, JSON.stringify(db, null, 2));
+
+          console.log(`New records added: ${added}`);
+          console.log(`Total records: ${db.records.length}`);
           NODE
 
       - name: Commit database
