@@ -21,91 +21,17 @@ jobs:
         with:
           node-version: 22
 
-      - name: Download and update database
-        run: |
-          node --input-type=module <<'NODE'
-          import fs from 'node:fs';
-
-          const sources = [
-            'desktop',
-            'mobile',
-            'tablet'
-          ];
-
-          const path = 'data/user-agents.json';
-          const db = JSON.parse(fs.readFileSync(path, 'utf8'));
-
-          if (!Array.isArray(db.records)) {
-            throw new Error('Invalid database format');
-          }
-
-          const seen = new Set(db.records.map(x => x.ua));
-          let added = 0;
-
-          for (const group of sources) {
-            const url =
-              `https://raw.githubusercontent.com/ShrekBytes/useragents-data/main/data/${group}.json`;
-
-            const response = await fetch(url);
-
-            if (!response.ok) {
-              throw new Error(`Source failed: ${group}`);
-            }
-
-            const data = await response.json();
-
-            for (const item of (data.user_agents || [])) {
-              const ua = typeof item === 'string'
-                ? item
-                : item.user_agent;
-
-              if (!ua || seen.has(ua)) continue;
-
-              let category = '';
-
-              if (/iPhone|iPad|iPod/i.test(ua)) {
-                category = 'iPhone';
-              } else if (/Android/i.test(ua)) {
-                category = 'Android';
-              } else if (/Windows/i.test(ua)) {
-                category = 'Windows';
-              } else if (/Macintosh|Mac OS X/i.test(ua)) {
-                category = 'Mac';
-              }
-
-              if (!category) continue;
-
-              seen.add(ua);
-
-              db.records.push({
-                category,
-                name: category + ' Browser',
-                ua,
-                kind: item.kind || 'observed',
-                source: 'ShrekBytes/useragents-data'
-              });
-
-              added++;
-            }
-          }
-
-          db.lastUpdated = new Date().toISOString();
-
-          fs.writeFileSync(
-            path,
-            JSON.stringify(db, null, 2)
-          );
-
-          console.log('New records added:', added);
-          console.log('Total records:', db.records.length);
-          NODE
+      - name: Update User-Agent database
+        run: node scripts/update-user-agents.js
 
       - name: Commit database
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/user-agents.json
+
           git diff --cached --quiet || (
-            git commit -m "Update User-Agent database"
+            git commit -m "Daily User-Agent database update"
             git push
           )
