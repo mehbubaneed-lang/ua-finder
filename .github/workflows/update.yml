@@ -19,16 +19,18 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
-      - name: Install User-Agent source
-        run: npm install --no-save user-agents@latest
-
-      - name: Update database
+      - name: Download and update database
         run: |
           node --input-type=module <<'NODE'
-          import UserAgent from 'user-agents';
           import fs from 'node:fs';
+
+          const sources = [
+            'desktop',
+            'mobile',
+            'tablet'
+          ];
 
           const path = 'data/user-agents.json';
           const db = JSON.parse(fs.readFileSync(path, 'utf8'));
@@ -40,22 +42,47 @@ jobs:
           const seen = new Set(db.records.map(x => x.ua));
           let added = 0;
 
-          for (let i = 0; i < 1000; i++) {
-            const ua = new UserAgent().toString();
-            let category = '';
+          for (const group of sources) {
+            const url =
+              `https://raw.githubusercontent.com/ShrekBytes/useragents-data/main/data/${group}.json`;
 
-            if (/iPhone|iPad/i.test(ua)) category = 'iPhone';
-            else if (/Android/i.test(ua)) category = 'Android';
-            else if (/Windows/i.test(ua)) category = 'Windows';
-            else if (/Macintosh|Mac OS X/i.test(ua)) category = 'Mac';
+            const response = await fetch(url);
 
-            if (category && !seen.has(ua)) {
+            if (!response.ok) {
+              throw new Error(`Source failed: ${group}`);
+            }
+
+            const data = await response.json();
+
+            for (const item of (data.user_agents || [])) {
+              const ua = typeof item === 'string'
+                ? item
+                : item.user_agent;
+
+              if (!ua || seen.has(ua)) continue;
+
+              let category = '';
+
+              if (/iPhone|iPad|iPod/i.test(ua)) {
+                category = 'iPhone';
+              } else if (/Android/i.test(ua)) {
+                category = 'Android';
+              } else if (/Windows/i.test(ua)) {
+                category = 'Windows';
+              } else if (/Macintosh|Mac OS X/i.test(ua)) {
+                category = 'Mac';
+              }
+
+              if (!category) continue;
+
               seen.add(ua);
 
               db.records.push({
                 category,
                 name: category + ' Browser',
-                ua
+                ua,
+                kind: item.kind || 'observed',
+                source: 'ShrekBytes/useragents-data'
               });
 
               added++;
@@ -63,10 +90,14 @@ jobs:
           }
 
           db.lastUpdated = new Date().toISOString();
-          fs.writeFileSync(path, JSON.stringify(db, null, 2));
 
-          console.log(`New records added: ${added}`);
-          console.log(`Total records: ${db.records.length}`);
+          fs.writeFileSync(
+            path,
+            JSON.stringify(db, null, 2)
+          );
+
+          console.log('New records added:', added);
+          console.log('Total records:', db.records.length);
           NODE
 
       - name: Commit database
@@ -75,6 +106,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/user-agents.json
           git diff --cached --quiet || (
-            git commit -m "Daily User-Agent database update"
+            git commit -m "Update User-Agent database"
             git push
           )
