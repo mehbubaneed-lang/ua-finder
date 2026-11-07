@@ -1,0 +1,68 @@
+name: Daily User-Agent Update
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install User-Agent source
+        run: npm install user-agents@latest
+
+      - name: Update database
+        run: |
+          node --input-type=module <<'NODE'
+          import UserAgent from 'user-agents';
+          import fs from 'node:fs';
+
+          const path = 'data/user-agents.json';
+          const db = JSON.parse(fs.readFileSync(path, 'utf8'));
+          const seen = new Set(db.records.map(x => x.ua));
+
+          for (let i = 0; i < 1000; i++) {
+            const ua = new UserAgent().toString();
+            let category = '';
+
+            if (/iPhone|iPad/i.test(ua)) category = 'iPhone';
+            else if (/Android/i.test(ua)) category = 'Android';
+            else if (/Windows/i.test(ua)) category = 'Windows';
+            else if (/Macintosh|Mac OS X/i.test(ua)) category = 'Mac';
+
+            if (category && !seen.has(ua)) {
+              seen.add(ua);
+              db.records.push({
+                category,
+                name: category + ' Browser',
+                ua
+              });
+            }
+          }
+
+          db.lastUpdated = new Date().toISOString();
+          fs.writeFileSync(path, JSON.stringify(db, null, 2));
+          NODE
+
+      - name: Commit database
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/user-agents.json
+          git diff --cached --quiet || (
+            git commit -m "Daily User-Agent database update"
+            git push
+          )
