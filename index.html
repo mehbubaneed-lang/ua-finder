@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#123d70">
-<meta name="description" content="User Agent Finder - Search and analyze User-Agent strings for iPhone, Android, Windows and Mac.">
-<title>User Agent Finder | Created By Shanto Hanif</title>
+<meta name="description" content="UA Finder - Search and analyze User-Agent strings for iPhone, Android, Windows, Mac, Linux and social apps.">
+<title>UA Finder | User-Agent Database</title>
 
 <script src="https://cdn.jsdelivr.net/npm/ua-parser-js@2.0.10/dist/ua-parser.min.js"></script>
 
@@ -46,20 +46,10 @@ header{
  margin:0 auto 12px;
  box-shadow:0 5px 18px #0002;
 }
-header h1{
- margin:0 0 8px;
- font-size:30px;
-}
+header h1{margin:0 0 8px;font-size:30px}
 header p{margin:6px 0}
-.credit{
- font-size:13px;
- opacity:.9;
-}
-.wrap{
- max-width:950px;
- margin:22px auto;
- padding:0 14px;
-}
+.credit{font-size:13px;opacity:.9}
+.wrap{max-width:1100px;margin:22px auto;padding:0 14px}
 .panel{
  background:white;
  padding:20px;
@@ -67,26 +57,15 @@ header p{margin:6px 0}
  margin-bottom:17px;
  box-shadow:0 4px 18px #152b4610;
 }
-h2{
- font-size:20px;
- margin:0 0 14px;
- color:var(--blue);
-}
+h2{font-size:20px;margin:0 0 14px;color:var(--blue)}
 input,button{
  font-size:16px;
  padding:13px;
  border-radius:9px;
  border:1px solid #ccd5e2;
 }
-input{
- width:100%;
- margin:7px 0;
- outline:none;
-}
-input:focus{
- border-color:var(--blue2);
- box-shadow:0 0 0 3px #2876bd18;
-}
+input{width:100%;margin:7px 0;outline:none}
+input:focus{border-color:var(--blue2);box-shadow:0 0 0 3px #2876bd18}
 button{
  background:var(--blue);
  color:white;
@@ -97,27 +76,11 @@ button{
 button:active{transform:scale(.97)}
 button.green{background:var(--green)}
 button.pink{background:var(--pink)}
-.actions{
- display:flex;
- gap:9px;
- flex-wrap:wrap;
- margin:10px 0;
-}
+.actions{display:flex;gap:9px;flex-wrap:wrap;margin:10px 0}
 .actions button{flex:1}
-.tabs{
- display:flex;
- gap:8px;
- flex-wrap:wrap;
- margin:12px 0;
-}
-.tabs button{
- background:#e7edf6;
- color:#173b65;
-}
-.tabs button.active{
- background:var(--pink);
- color:white;
-}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.tabs button{background:#e7edf6;color:#173b65}
+.tabs button.active{background:var(--pink);color:white}
 .status{
  padding:12px;
  background:#eef3fa;
@@ -126,10 +89,7 @@ button.pink{background:var(--pink)}
  margin:12px 0;
  overflow-wrap:anywhere;
 }
-.status.error{
- background:#fff0f0;
- color:#a22;
-}
+.status.error{background:#fff0f0;color:#a22}
 .stats{
  display:grid;
  grid-template-columns:repeat(2,1fr);
@@ -149,10 +109,7 @@ button.pink{background:var(--pink)}
  color:var(--blue);
  margin-bottom:5px;
 }
-.stat span{
- font-size:12px;
- color:var(--muted);
-}
+.stat span{font-size:12px;color:var(--muted)}
 .item{
  border:1px solid #e1e7ef;
  padding:14px;
@@ -175,10 +132,7 @@ button.pink{background:var(--pink)}
  overflow-wrap:anywhere;
  line-height:1.8;
 }
-.small{
- font-size:12px;
- color:var(--muted);
-}
+.small{font-size:12px;color:var(--muted)}
 .badge{
  display:inline-block;
  background:#e7edf6;
@@ -196,7 +150,10 @@ footer{
  line-height:1.8;
 }
 @media(min-width:600px){
- .stats{grid-template-columns:repeat(5,1fr)}
+ .stats{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:900px){
+ .stats{grid-template-columns:repeat(6,1fr)}
 }
 </style>
 </head>
@@ -205,9 +162,9 @@ footer{
 
 <header>
  <div class="logo">UA</div>
- <h1>User Agent Finder</h1>
+ <h1>UA Finder</h1>
  <p>User-Agent Database | ইউজার-এজেন্ট ডেটাবেস</p>
- <p>iPhone • Android • Windows • Mac</p>
+ <p>iPhone • Android • Windows • Mac • Linux</p>
  <p class="credit">Created By Shanto Hanif</p>
 </header>
 
@@ -220,14 +177,9 @@ footer{
   <button class="pink" onclick="toggleLanguage()" id="langBtn">বাংলা</button>
  </div>
 
- <p id="intro">
- Search User-Agent examples or detect your current browser.
- </p>
+ <p id="intro">Search User-Agent examples or detect your current browser.</p>
 
- <input
-  id="search"
-  placeholder="Search iPhone, Android, Chrome, Windows..."
- >
+ <input id="search" placeholder="Search iPhone, Android, Chrome, Windows...">
 
  <div class="tabs" id="tabs">
   <button class="active" data-category="All">All</button>
@@ -235,36 +187,27 @@ footer{
   <button data-category="Android">Android</button>
   <button data-category="Windows">Windows</button>
   <button data-category="Mac">Mac</button>
+  <button data-category="Linux">Linux</button>
+  <button data-category="Facebook">Facebook</button>
+  <button data-category="X / Twitter">X / Twitter</button>
+  <button data-category="TikTok">TikTok</button>
+  <button data-category="YouTube">YouTube</button>
+  <button data-category="Instagram">Instagram</button>
+  <button data-category="WhatsApp">WhatsApp</button>
  </div>
 
  <h2 id="statsTitle">Database Statistics</h2>
 
  <div class="stats">
-  <div class="stat">
-   <strong id="totalCount">0</strong>
-   <span>Total User-Agents</span>
-  </div>
-  <div class="stat">
-   <strong id="iphoneCount">0</strong>
-   <span>iPhone</span>
-  </div>
-  <div class="stat">
-   <strong id="androidCount">0</strong>
-   <span>Android</span>
-  </div>
-  <div class="stat">
-   <strong id="windowsCount">0</strong>
-   <span>Windows</span>
-  </div>
-  <div class="stat">
-   <strong id="macCount">0</strong>
-   <span>Mac</span>
-  </div>
+  <div class="stat"><strong id="totalCount">0</strong><span>Total User-Agents</span></div>
+  <div class="stat"><strong id="iphoneCount">0</strong><span>iPhone</span></div>
+  <div class="stat"><strong id="androidCount">0</strong><span>Android</span></div>
+  <div class="stat"><strong id="windowsCount">0</strong><span>Windows</span></div>
+  <div class="stat"><strong id="macCount">0</strong><span>Mac</span></div>
+  <div class="stat"><strong id="linuxCount">0</strong><span>Linux</span></div>
  </div>
 
- <div class="status" id="dbStatus">
-  Loading database...
- </div>
+ <div class="status" id="dbStatus">Loading database...</div>
 
  <h2 id="recordsTitle">User-Agent Records</h2>
  <div id="list"></div>
@@ -273,99 +216,82 @@ footer{
 
 <section class="panel">
  <h2 id="detectTitle">Detect My Device</h2>
- <p id="detectInfo">
- Find the browser and operating system of this device.
- </p>
-
- <button class="green" onclick="detectCurrent()" id="detectBtn">
- Detect My User-Agent
- </button>
-
+ <p id="detectInfo">Find the browser and operating system of this device.</p>
+ <button class="green" onclick="detectCurrent()" id="detectBtn">Detect My User-Agent</button>
  <div id="currentResult"></div>
 </section>
 
 <section class="panel">
  <h2 id="customTitle">Analyze a User-Agent</h2>
  <p id="customInfo">Paste any User-Agent string below.</p>
-
- <input
-  id="customUA"
-  placeholder="Paste User-Agent string here"
- >
-
- <button onclick="analyze()" id="analyzeBtn">
- Analyze User-Agent
- </button>
-
+ <input id="customUA" placeholder="Paste User-Agent string here">
+ <button onclick="analyze()" id="analyzeBtn">Analyze User-Agent</button>
  <div id="customResult"></div>
 </section>
 
 </main>
 
 <footer>
- User Agent Finder © 2026<br>
+ UA Finder © 2026<br>
  <strong>Created By Shanto Hanif</strong><br>
- iPhone | Android | Windows | Mac
+ iPhone | Android | Windows | Mac | Linux
 </footer>
 
 <script>
 
 const sampleRecords = [
-
 {
  category:"iPhone",
  name:"iPhone Safari",
  ua:"Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
 },
-
 {
  category:"iPhone",
  name:"iPhone Chrome",
  ua:"Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/120.0.6099.119 Mobile/15E148 Safari/604.1"
 },
-
 {
  category:"Android",
  name:"Android Chrome",
  ua:"Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
 },
-
 {
  category:"Android",
  name:"Android Firefox",
  ua:"Mozilla/5.0 (Android 14; Mobile; rv:120.0) Gecko/120.0 Firefox/120.0"
 },
-
 {
  category:"Windows",
  name:"Windows Chrome",
  ua:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 },
-
 {
  category:"Windows",
  name:"Windows Firefox",
  ua:"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
 },
-
 {
  category:"Mac",
  name:"Mac Safari",
  ua:"Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
 },
-
 {
  category:"Mac",
  name:"Mac Chrome",
  ua:"Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
-
 ];
 
 let records = [...sampleRecords];
 let category = "All";
 let bangla = false;
 let lastUpdated = "";
+
+const supportedCategories = [
+ "iPhone","Android","Windows","Mac","Linux",
+ "Facebook","X / Twitter","TikTok","YouTube",
+ "Instagram","WhatsApp"
+];
 
 function escapeHTML(value){
  return String(value ?? "").replace(/[&<>"']/g, char => ({
@@ -379,6 +305,18 @@ function escapeHTML(value){
 
 function detectCategory(ua){
 
+ if(/FBAN|FBAV|FB_IAB|FB4A|FBAN\/FBIOS/i.test(ua)) return "Facebook";
+
+ if(/TwitterAndroid|Twitter for iPhone|TwitterWeb|Twitter\/|XAndroid/i.test(ua)) return "X / Twitter";
+
+ if(/musical_ly|TikTok/i.test(ua)) return "TikTok";
+
+ if(/com\.google\.android\.youtube|YouTube\//i.test(ua)) return "YouTube";
+
+ if(/Instagram/i.test(ua)) return "Instagram";
+
+ if(/WhatsApp/i.test(ua)) return "WhatsApp";
+
  if(/iPhone|iPad|iPod/i.test(ua)) return "iPhone";
 
  if(/Android/i.test(ua)) return "Android";
@@ -387,8 +325,9 @@ function detectCategory(ua){
 
  if(/Macintosh|Mac OS X/i.test(ua)) return "Mac";
 
- return "";
+ if(/X11; Linux|Linux x86_64|Linux i686|Linux arm/i.test(ua)) return "Linux";
 
+ return "";
 }
 
 async function loadDatabase(){
@@ -403,12 +342,12 @@ async function loadDatabase(){
   );
 
   if(!response.ok){
-   throw new Error("Database file could not be loaded");
+   throw new Error("Database file could not be loaded: " + response.status);
   }
 
   const db = await response.json();
 
-  if(!Array.isArray(db.records)){
+  if(!db || !Array.isArray(db.records)){
    throw new Error("Invalid database format");
   }
 
@@ -416,37 +355,24 @@ async function loadDatabase(){
 
   db.records.forEach(item => {
 
-   if(
-    !item ||
-    typeof item.ua !== "string" ||
-    !item.ua.trim()
-   ) return;
+   if(!item || typeof item.ua !== "string" || !item.ua.trim()) return;
 
    const detected = detectCategory(item.ua);
 
-   const cat = [
-    "iPhone",
-    "Android",
-    "Windows",
-    "Mac"
-   ].includes(item.category)
-    ? item.category
-    : detected;
+   const cat = detected || (
+    supportedCategories.includes(item.category)
+     ? item.category
+     : ""
+   );
 
    if(!cat) return;
 
    combined.push({
-
     category:cat,
-
-    name:item.name || cat + " Browser",
-
+    name:item.name || cat + " User-Agent",
     ua:item.ua,
-
     kind:item.kind || "",
-
     source:item.source || ""
-
    });
 
   });
@@ -454,25 +380,19 @@ async function loadDatabase(){
   const seen = new Set();
 
   records = combined.filter(item => {
-
-   const key = item.ua.trim();
+   const key = item.ua.trim().toLowerCase();
 
    if(seen.has(key)) return false;
 
    seen.add(key);
-
    return true;
-
   });
 
   lastUpdated = db.lastUpdated || "";
 
   status.className = "status";
-
   status.textContent =
-   (bangla
-    ? "ডেটাবেস সংযুক্ত | মোট রেকর্ড: "
-    : "Database connected | Total records: ")
+   (bangla ? "ডেটাবেস সংযুক্ত | মোট রেকর্ড: " : "Database connected | Total records: ")
    + records.length
    + (
     lastUpdated
@@ -492,6 +412,8 @@ async function loadDatabase(){
 
   console.error(error);
 
+  records = [...sampleRecords];
+
  }
 
  updateStats();
@@ -501,23 +423,14 @@ async function loadDatabase(){
 
 function updateStats(){
 
- const count = cat =>
-  records.filter(x => x.category === cat).length;
+ const count = cat => records.filter(x => x.category === cat).length;
 
- document.getElementById("totalCount").textContent =
-  records.length;
-
- document.getElementById("iphoneCount").textContent =
-  count("iPhone");
-
- document.getElementById("androidCount").textContent =
-  count("Android");
-
- document.getElementById("windowsCount").textContent =
-  count("Windows");
-
- document.getElementById("macCount").textContent =
-  count("Mac");
+ document.getElementById("totalCount").textContent = records.length;
+ document.getElementById("iphoneCount").textContent = count("iPhone");
+ document.getElementById("androidCount").textContent = count("Android");
+ document.getElementById("windowsCount").textContent = count("Windows");
+ document.getElementById("macCount").textContent = count("Mac");
+ document.getElementById("linuxCount").textContent = count("Linux");
 
 }
 
@@ -526,12 +439,7 @@ function setCategory(c){
  category = c;
 
  document.querySelectorAll(".tabs button").forEach(btn => {
-
-  btn.classList.toggle(
-   "active",
-   btn.dataset.category === c
-  );
-
+  btn.classList.toggle("active",btn.dataset.category === c);
  });
 
  render();
@@ -539,46 +447,29 @@ function setCategory(c){
 }
 
 document.querySelectorAll(".tabs button").forEach(btn => {
-
- btn.addEventListener("click", () => {
-  setCategory(btn.dataset.category);
- });
-
+ btn.addEventListener("click",() => setCategory(btn.dataset.category));
 });
 
-document.getElementById("search").addEventListener(
- "input",
- render
-);
+document.getElementById("search").addEventListener("input",render);
 
 function render(){
 
- const q = document
-  .getElementById("search")
-  .value
-  .toLowerCase();
+ const q = document.getElementById("search").value.toLowerCase();
 
  const filtered = records.filter(x =>
-
   (category === "All" || x.category === category) &&
-
   (
    x.name.toLowerCase().includes(q) ||
    x.ua.toLowerCase().includes(q) ||
    x.category.toLowerCase().includes(q)
   )
-
  );
 
  const list = document.getElementById("list");
 
  if(!filtered.length){
-
-  list.innerHTML =
-   "<p>No results found. কোনো ফলাফল পাওয়া যায়নি।</p>";
-
+  list.innerHTML = "<p>No results found. কোনো ফলাফল পাওয়া যায়নি।</p>";
   return;
-
  }
 
  list.innerHTML = filtered.map(x => {
@@ -586,53 +477,33 @@ function render(){
   const index = records.indexOf(x);
 
   return `
-
    <div class="item">
+    <strong>${escapeHTML(x.category)} — ${escapeHTML(x.name)}</strong>
+    <div class="ua">${escapeHTML(x.ua)}</div>
 
-    <strong>
-     ${escapeHTML(x.category)} — ${escapeHTML(x.name)}
-    </strong>
-
-    <div class="ua">
-     ${escapeHTML(x.ua)}
-    </div>
-
-    ${
-     x.kind
-      ? `<span class="badge">${escapeHTML(x.kind)}</span>`
-      : ""
-    }
+    ${x.kind ? `<span class="badge">${escapeHTML(x.kind)}</span>` : ""}
 
     <div class="actions">
-
      <button data-copy="${index}">
       ${bangla ? "কপি করুন" : "Copy User-Agent"}
      </button>
-
     </div>
-
    </div>
-
   `;
 
  }).join("");
 
 }
 
-document.getElementById("list").addEventListener(
- "click",
- event => {
+document.getElementById("list").addEventListener("click",event => {
 
-  const button = event.target.closest("[data-copy]");
+ const button = event.target.closest("[data-copy]");
+ if(!button) return;
 
-  if(!button) return;
+ const item = records[Number(button.dataset.copy)];
+ if(item) copyUA(item.ua);
 
-  const item = records[Number(button.dataset.copy)];
-
-  if(item) copyUA(item.ua);
-
- }
-);
+});
 
 async function copyUA(value){
 
@@ -640,31 +511,18 @@ async function copyUA(value){
 
   await navigator.clipboard.writeText(value);
 
-  alert(
-   bangla
-    ? "User-Agent কপি হয়েছে!"
-    : "User-Agent copied!"
-  );
+  alert(bangla ? "User-Agent কপি হয়েছে!" : "User-Agent copied!");
 
  }catch(error){
 
   const textarea = document.createElement("textarea");
-
   textarea.value = value;
-
   document.body.appendChild(textarea);
-
   textarea.select();
-
   document.execCommand("copy");
-
   textarea.remove();
 
-  alert(
-   bangla
-    ? "কপি সম্পন্ন!"
-    : "Copied!"
-  );
+  alert(bangla ? "কপি সম্পন্ন!" : "Copied!");
 
  }
 
@@ -673,49 +531,38 @@ async function copyUA(value){
 function parseUA(ua){
 
  if(typeof UAParser === "undefined"){
-
   return "<p>Parser library could not load. Check your internet connection.</p>";
-
  }
 
  const p = new UAParser(ua).getResult();
 
  return `
-
  <div class="result">
+  <b>Browser:</b>
+  ${escapeHTML(p.browser.name || "Unknown")}
+  ${escapeHTML(p.browser.version || "")}
+  <br>
 
- <b>Browser:</b>
- ${escapeHTML(p.browser.name || "Unknown")}
- ${escapeHTML(p.browser.version || "")}
- <br>
+  <b>Operating System:</b>
+  ${escapeHTML(p.os.name || "Unknown")}
+  ${escapeHTML(p.os.version || "")}
+  <br>
 
- <b>Operating System:</b>
- ${escapeHTML(p.os.name || "Unknown")}
- ${escapeHTML(p.os.version || "")}
- <br>
+  <b>Device:</b>
+  ${escapeHTML(p.device.vendor || "")}
+  ${escapeHTML(p.device.model || p.device.type || "Unknown")}
+  <br>
 
- <b>Device:</b>
- ${escapeHTML(p.device.vendor || "")}
- ${escapeHTML(p.device.model || p.device.type || "Unknown")}
- <br>
+  <b>CPU:</b>
+  ${escapeHTML(p.cpu.architecture || "Unknown")}
+  <br>
 
- <b>CPU:</b>
- ${escapeHTML(p.cpu.architecture || "Unknown")}
- <br>
-
- <b>Engine:</b>
- ${escapeHTML(p.engine.name || "Unknown")}
-
- <hr>
-
- <b>User-Agent:</b>
-
- <div class="ua">
- ${escapeHTML(ua)}
+  <b>Engine:</b>
+  ${escapeHTML(p.engine.name || "Unknown")}
+  <hr>
+  <b>User-Agent:</b>
+  <div class="ua">${escapeHTML(ua)}</div>
  </div>
-
- </div>
-
  `;
 
 }
@@ -729,15 +576,10 @@ function detectCurrent(){
 
 function analyze(){
 
- const ua = document
-  .getElementById("customUA")
-  .value
-  .trim();
+ const ua = document.getElementById("customUA").value.trim();
 
  document.getElementById("customResult").innerHTML =
-  ua
-   ? parseUA(ua)
-   : "Please paste a User-Agent first.";
+  ua ? parseUA(ua) : "Please paste a User-Agent first.";
 
 }
 
@@ -745,8 +587,7 @@ function toggleLanguage(){
 
  bangla = !bangla;
 
- document.getElementById("langBtn").textContent =
-  bangla ? "English" : "বাংলা";
+ document.getElementById("langBtn").textContent = bangla ? "English" : "বাংলা";
 
  document.getElementById("welcome").textContent =
   bangla ? "ইউজার-এজেন্ট খুঁজুন" : "Find User-Agent";
@@ -777,9 +618,7 @@ function toggleLanguage(){
   bangla ? "User-Agent বিশ্লেষণ করুন" : "Analyze a User-Agent";
 
  document.getElementById("customInfo").textContent =
-  bangla
-   ? "নিচে যেকোনো User-Agent পেস্ট করুন।"
-   : "Paste any User-Agent string below.";
+  bangla ? "নিচে যেকোনো User-Agent পেস্ট করুন।" : "Paste any User-Agent string below.";
 
  document.getElementById("analyzeBtn").textContent =
   bangla ? "বিশ্লেষণ করুন" : "Analyze User-Agent";
