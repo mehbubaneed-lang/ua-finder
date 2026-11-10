@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T03:51:51.974Z",
+  "lastUpdated": "2026-11-10T03:45:28.789Z",
   "records": [
     {
       "category": "Mac",
@@ -24,7 +24,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -39,7 +39,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -49,7 +49,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -59,7 +59,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -69,7 +69,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -79,7 +79,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -109,7 +109,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -126,9 +126,10 @@
       "name": "iPhone Browser",
       "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1",
       "sources": [
-        "ShrekBytes Mobile"
+        "ShrekBytes Mobile",
+        "WinFuture23 Real World User Agents"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -138,7 +139,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -207,7 +208,7 @@
       "sources": [
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -222,7 +223,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -237,7 +238,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -247,7 +248,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -262,7 +263,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Tablet"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -272,7 +273,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -281,7 +282,7 @@
       "sources": [
         "WinFuture23 Real World User Agents"
       ],
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "iPhone",
@@ -301,7 +302,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -311,7 +312,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -321,7 +322,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -341,7 +342,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -351,7 +352,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -361,7 +362,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -391,7 +392,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -406,7 +407,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -441,7 +442,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -476,7 +477,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -520,7 +521,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -540,7 +541,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -549,7 +550,7 @@
       "sources": [
         "WinFuture23 Real World User Agents"
       ],
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Mac",
@@ -559,7 +560,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -569,7 +570,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -609,7 +610,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -644,7 +645,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -669,7 +670,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -689,7 +690,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -709,7 +710,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -729,7 +730,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -739,7 +740,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -754,7 +755,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -769,7 +770,11 @@
     {
       "category": "iPhone",
       "name": "iPhone Browser",
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/157.0.8103.37 Mobile/15E148 Safari/604.1"
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/157.0.8103.37 Mobile/15E148 Safari/604.1",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Mac",
@@ -779,7 +784,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -794,7 +799,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -803,7 +808,7 @@
       "sources": [
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -842,7 +847,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -872,7 +877,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -887,7 +892,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -917,7 +922,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -927,7 +932,11 @@
     {
       "category": "iPhone",
       "name": "iPhone Browser",
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1"
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Android",
@@ -1022,7 +1031,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1037,7 +1046,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -1081,7 +1090,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1111,7 +1120,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -1170,7 +1179,7 @@
       "sources": [
         "WinFuture23 Real World User Agents"
       ],
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Android",
@@ -1220,7 +1229,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1236,7 +1245,7 @@
       "sources": [
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1248,7 +1257,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1260,7 +1269,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -1272,7 +1281,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -1288,9 +1297,10 @@
       "kind": "observed",
       "source": "ShrekBytes/useragents-data",
       "sources": [
-        "ShrekBytes Desktop"
+        "ShrekBytes Desktop",
+        "WinFuture23 Real World User Agents"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1302,14 +1312,18 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
       "name": "Mac Browser",
       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:153.0) Gecko/20100101 Firefox/153.0",
       "kind": "observed",
-      "source": "ShrekBytes/useragents-data"
+      "source": "ShrekBytes/useragents-data",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Mac",
@@ -1321,7 +1335,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1333,7 +1347,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1345,14 +1359,18 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
       "name": "Mac Browser",
       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
       "kind": "observed",
-      "source": "ShrekBytes/useragents-data"
+      "source": "ShrekBytes/useragents-data",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Windows",
@@ -1364,7 +1382,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1373,9 +1391,10 @@
       "kind": "observed",
       "source": "ShrekBytes/useragents-data",
       "sources": [
-        "ShrekBytes Desktop"
+        "ShrekBytes Desktop",
+        "WinFuture23 Real World User Agents"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1386,7 +1405,7 @@
       "sources": [
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1398,7 +1417,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1410,7 +1429,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1422,7 +1441,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1434,7 +1453,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1446,7 +1465,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1458,7 +1477,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1470,7 +1489,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1482,7 +1501,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1494,7 +1513,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1506,7 +1525,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -1518,7 +1537,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -1530,7 +1549,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -1542,7 +1561,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -1554,7 +1573,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -1566,7 +1585,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Desktop"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1578,7 +1597,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1590,7 +1609,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1602,7 +1621,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1614,7 +1633,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1626,7 +1645,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1638,7 +1657,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1650,7 +1669,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1704,14 +1723,18 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
       "name": "Android Browser",
       "ua": "Mozilla/5.0 (Android 17; Mobile; rv:158.0) Gecko/158.0 Firefox/158.0",
       "kind": "observed",
-      "source": "ShrekBytes/useragents-data"
+      "source": "ShrekBytes/useragents-data",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Android",
@@ -1723,7 +1746,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -1745,7 +1768,7 @@
       "sources": [
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -1764,7 +1787,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1776,7 +1799,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1809,7 +1832,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1821,7 +1844,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1851,7 +1874,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1863,7 +1886,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1875,7 +1898,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1894,7 +1917,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -1906,7 +1929,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -1918,7 +1941,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -1957,7 +1980,7 @@
       "sources": [
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -1989,7 +2012,7 @@
       "sources": [
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2000,7 +2023,7 @@
       "sources": [
         "ShrekBytes Mobile"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2019,7 +2042,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Tablet"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -2038,7 +2061,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Tablet"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -2050,7 +2073,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Tablet"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -2062,7 +2085,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Tablet"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2074,7 +2097,7 @@
         "WinFuture23 Real World User Agents",
         "ShrekBytes Tablet"
       ],
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2101,7 +2124,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-10-26",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2113,7 +2136,7 @@
         "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "2026-10-22",
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Linux",
@@ -2126,7 +2149,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-08-15",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2139,7 +2162,7 @@
         "ShrekBytes Mobile"
       ],
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -2152,7 +2175,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2165,7 +2188,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-06-08",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -2178,7 +2201,7 @@
         "ShrekBytes Tablet"
       ],
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2191,7 +2214,7 @@
         "ShrekBytes Mobile"
       ],
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2204,7 +2227,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-10-10",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2217,7 +2240,7 @@
         "ShrekBytes Mobile"
       ],
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2230,7 +2253,7 @@
         "ShrekBytes Tablet"
       ],
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2243,7 +2266,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-10-30",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2256,7 +2279,7 @@
         "ShrekBytes Mobile"
       ],
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2269,7 +2292,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-05-23",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -2282,7 +2305,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -2294,7 +2317,7 @@
         "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "2026-05-21",
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Linux",
@@ -2307,7 +2330,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-10-08",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2320,7 +2343,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-10-22",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2332,7 +2355,7 @@
         "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "2026-11-07",
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "iPhone",
@@ -2345,7 +2368,7 @@
         "ShrekBytes Tablet"
       ],
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2358,7 +2381,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2371,7 +2394,7 @@
         "ShrekBytes Tablet"
       ],
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -2396,7 +2419,7 @@
         "ShrekBytes Tablet"
       ],
       "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2409,7 +2432,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-09-10",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Facebook",
@@ -2421,7 +2444,7 @@
         "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "2026-11-07",
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Linux",
@@ -2433,7 +2456,7 @@
         "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "2026-11-07",
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "iPhone",
@@ -2446,7 +2469,7 @@
         "ShrekBytes Mobile"
       ],
       "firstSeen": "2026-09-02",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -2459,7 +2482,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -2472,7 +2495,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2497,7 +2520,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-04-29",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2510,7 +2533,7 @@
         "ShrekBytes Tablet"
       ],
       "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2522,7 +2545,7 @@
         "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "2026-06-18",
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "iPhone",
@@ -2534,7 +2557,7 @@
         "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "2026-11-07",
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Android",
@@ -2547,7 +2570,7 @@
         "ShrekBytes Mobile"
       ],
       "firstSeen": "2026-04-29",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -2560,7 +2583,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-06-18",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -2585,7 +2608,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-09-24",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2609,7 +2632,7 @@
         "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "2026-11-07",
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Android",
@@ -2622,7 +2645,7 @@
         "ShrekBytes Mobile"
       ],
       "firstSeen": "2026-04-29",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -2634,7 +2657,7 @@
         "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Linux",
@@ -2647,7 +2670,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-10-16",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "iPhone",
@@ -2672,7 +2695,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-10-30",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -2685,7 +2708,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "2026-04-29",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -2697,7 +2720,7 @@
         "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "2026-11-07",
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-09"
     },
     {
       "category": "Linux",
@@ -2709,7 +2732,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2718,10 +2741,11 @@
       "kind": "observed",
       "source": "ShrekBytes Desktop",
       "sources": [
-        "ShrekBytes Desktop"
+        "ShrekBytes Desktop",
+        "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2733,7 +2757,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -2745,7 +2769,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2757,7 +2781,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Linux",
@@ -2766,10 +2790,11 @@
       "kind": "observed",
       "source": "ShrekBytes Desktop",
       "sources": [
-        "ShrekBytes Desktop"
+        "ShrekBytes Desktop",
+        "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -2778,10 +2803,11 @@
       "kind": "observed",
       "source": "ShrekBytes Desktop",
       "sources": [
-        "ShrekBytes Desktop"
+        "ShrekBytes Desktop",
+        "WinFuture23 Real World User Agents"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -2793,7 +2819,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -2805,7 +2831,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Mac",
@@ -2817,7 +2843,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Windows",
@@ -2829,7 +2855,7 @@
         "ShrekBytes Desktop"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
     },
     {
       "category": "Android",
@@ -2841,7 +2867,163 @@
         "ShrekBytes Mobile"
       ],
       "firstSeen": "",
-      "lastSeen": "2026-11-09T03:51:51.974Z"
+      "lastSeen": "2026-11-10T03:45:28.789Z"
+    },
+    {
+      "category": "Mac",
+      "name": "Edge on macOS",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "Windows",
+      "name": "Edge on Windows",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "iPhone",
+      "name": "Google Search App on iOS",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_2_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/446.3.1011462875 Mobile/15E148 Safari/604.1",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "Linux",
+      "name": "Firefox on Linux",
+      "ua": "Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "Linux",
+      "name": "Chrome on Linux",
+      "ua": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "iPhone",
+      "name": "Edge on iOS",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_2_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/157.0.4341.42 Version/27.0 Mobile/15E148 Safari/604.1",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "Android",
+      "name": "Edge on Android",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36 EdgA/157.0.0.0",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "iPhone",
+      "name": "Firefox on iOS",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/160.0 Mobile/15E148 Safari/604.1",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "Windows",
+      "name": "Edge on Windows",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-08-13",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "Mac",
+      "name": "Opera on macOS",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 OPR/139.0.0.0",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "Windows",
+      "name": "Edge on Windows",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-05-19",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "Windows",
+      "name": "Firefox on Windows",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-04-29",
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "category": "Mac",
+      "name": "Chrome on macOS",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/157 Version/11.1.1 Safari/605.1.15",
+      "kind": "observed",
+      "source": "WinFuture23 Real World User Agents",
+      "sources": [
+        "WinFuture23 Real World User Agents"
+      ],
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09"
     }
   ],
   "sourceReport": [
